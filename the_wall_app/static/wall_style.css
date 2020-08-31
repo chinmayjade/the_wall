@@ -1,0 +1,110 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin: 10px auto; */
+}
+#wrapper {
+    width: 1450px;
+    margin: auto;
+    /* padding: 20px 20px; */
+}
+#header {
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+    background-color: #e06900;
+    padding: 0px 20px;
+}
+
+#header * {
+    vertical-align: middle;
+}
+
+#header h1 {
+    text-align: left;
+    width: 1100px;
+    display: inline-block;
+}
+
+#header h4 {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+#interior {
+    width: 1150px;
+    margin: auto;
+}
+#interior > h3 {
+    margin: 30px 0px 10px 0px;
+    display: block;
+}
+
+#interior > form > textarea {
+    margin-left: 10px;
+}
+
+.messages {
+    width: 1135px;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.messages h4 {
+    margin: 0px;
+    display: inline-block;
+}
+
+.messages p {
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.messages > form > button {
+    display: inline-block;
+    margin-left: 1050px;
+    margin-bottom: 10px;
+}
+
+.comments {
+    margin-left: 30px;
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comments h5 {
+    margin: 0px;
+    display: inline-block;
+}
+
+.comments p {
+    margin: 0px 0px 0px 5px;
+    padding: 5px;
+}
+
+.comments textarea {
+    margin: 10px 0px;
+}
+
+.timestamp {
+    font-size: 8pt;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#interior > form > button {
+    display: inline-block;
+    margin-left: 1024px;
+    padding: 8px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 4px gray;
+    font-size: 11pt;
+
+}
+.comments button {
+    display: inline-block;
+    margin-left: 950px;
+    padding: 8px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 4px gray;
+    font-size: 11pt;
+}
